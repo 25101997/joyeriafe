@@ -1,0 +1,73 @@
+.card__container{
+    background-color: #0010;
+    border-radius: 10px;
+    border: 2px solid #0054;
+    overflow: hidden;
+    padding: 8px;
+    margin: 20px 20px 0 0;
+}
+
+.card__container:hover {
+    box-shadow: 0 0 12px 6px rgba(125, 125, 125, 0.8);
+    transition: box-shadow 0.3s ease;
+}
+
+.card__img{
+    border-radius: 10px;
+    width: auto;
+    height: auto; /* Ajusta la altura según tus necesidades */
+}
+  
+.card__img > img {
+    box-sizing: border-box;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen se ajuste sin salirse */
+}
+
+.card__title{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: transparent;
+}
+  
+.card__button {
+    background-color: #FFFFFF;
+    border: 2px solid #2196f3;
+    border-radius: 2rem;
+    color: #2196f3;
+    padding: 0.5rem;
+    height: 3rem;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    margin-top: 0.5rem;
+}
+
+.card__button:hover {
+    box-shadow: 0 0 8px 4px rgba(33, 150, 243, 0.8);
+    background-color: #fff;
+    color: #2196f3;
+    cursor: pointer;
+}
+
+.wa__icon{
+    background: #76FF03;
+    color: #FFFFFF;
+    position: absolute;
+    padding: 0.3rem;
+    border: 2px solid #76FF03;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wa__icon:hover{
+    background: #FFFFFF;
+    color: #76FF03;
+    box-shadow: 0 0 6px 3px #76FF03;
+    cursor: pointer;
+}

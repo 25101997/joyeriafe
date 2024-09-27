@@ -1,0 +1,14 @@
+.product__container{
+    display: flex;
+    justify-content: center;
+}
+
+.product__items__container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+    width: 100%;
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    box-sizing: border-box;   
+}
+
+
